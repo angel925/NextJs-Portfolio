@@ -1,0 +1,34 @@
+body,
+html, body > div:first-child,
+div#_next,
+div#_next > div{
+    height: 100%;
+} 
+
+
+.overflow {
+    height: 50%;
+    overflow: hidden;
+}
+
+.overflow .card-img-top {
+    transform : scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+    transform : scale(1.8)
+}
+
+#nprogress .bar {
+    height: 4px;
+}
+
+#nprogress .bar {
+    background : #FF45D0 !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #00ffee;
+    border-left-color: #33ff00;
+}
